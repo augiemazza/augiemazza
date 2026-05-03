@@ -9,6 +9,7 @@ Founder of [VARRD](https://varrd.com). Building tools to find statistically real
 - **13** — Bought a 3D printer. Was one of the first 10 on Thingiverse to grab the fidget spinner model and started printing them along with Pokémon Go gear, sold to kids at my school and a few others. Mom kept the printer fed with filament while I was at school in 6th grade.
 - **14** — Saved up for a laser engraver. Cut and engraved wood and granite for paying customers — first real online business.
 - **2017** — Stuck Helium (HNT) routers in buildings where I had electricity access, paid owners small amounts for the watt usage. Bought a few Bitcoin miners around the same time. Mostly to learn the rigs, but they made some money too.
+- **~2018** — Worked on a venture that captured methane waste from a landfill, converted it to electricity, and used it to power on-site crypto mining. Played a major role in setting it up and running it.
 - Bought and flipped domain names (`iamlearninghowtogolf` among them, minor success). To drive traffic, ran Twitter bots that posted something useful instead of spam — pulled live gas prices via geo scripts and posted nationwide daily averages.
 - Got into DeFi early, mostly to learn the mechanics rather than make money on it.
 - Building with tensor models since they came out in 2017.
@@ -32,11 +33,11 @@ VARRD has been built for years on our own servers — most of the work doesn't s
 
 **VARRD — how we got here**
 
-Started this with Ben (Princeton math, buddy from Chicago). Four phases:
+Started this with Ben (Princeton math, buddy from Chicago). My father — one of the most successful derivatives traders in North American history — works hand in hand with us on the big-picture direction. Four phases:
 
 1. **Tools for ourselves.** Built research tools for ourselves and the Chicago futures firm we were trading at. Just trying to find edges faster.
 
-2. **The engine.** Turned the tools into a system that takes a plain-English idea and turns it into a quantitative formula that gets tested under the strictest reasonable statistical settings. Took a couple years to build the DSL and the surrounding system. We were convinced this would change how traders work, and the bet has held up — the goal is everyone being able to trade on statistically valid signals. Test settings are kept strict on purpose, with the rule that **transparency, legitimacy, and honesty about what's actually being tested** comes before any individual result. Most ideas get killed. The ones that survive are real.
+2. **The engine.** People were pointing AI at price data, getting back strategies with 25 Sharpe ratios, and getting wrecked when they deployed them. The AI wasn't lying — it was falling into all the invisible traps that kill real quant research: p-hacking across thousands of variations, OOS tampering, no K-tracking (every test should raise the significance bar — AI tools didn't track that), lookahead bias, ungated data normalization, no multiple-testing correction. We built a system that takes any plain-English idea, turns it into a properly specified quantitative formula, and tests it under the strictest reasonable statistical settings — every guardrail enforced at the architecture level so even an AI agent can't skip them. Took a couple years to build the DSL and the surrounding system. The rule baked in: **transparency, legitimacy, and honesty about what's actually being tested comes before any individual result.** Most ideas get killed. The ones that survive are real.
 
 3. **Autonomous mode.** Realized that fully driving the engine took more bandwidth than most traders had time for. Built a mode where you point VARRD in a direction and it goes off and tests, discovers, and surfaces edges on its own — same context management, same test rules.
 
@@ -46,7 +47,7 @@ The thesis: Terence Tao said idea generation is no longer the bottleneck — we'
 
 With the agent economy ramping up, the natural interface is your AI talking to ours — paying small fees to query the research engine, autonomous mode, or the live edge feed. That's where we've leaned in.
 
-200+ users. 100,000+ hypotheses tested. MCP server shipping now: `pip install varrd`.
+Hundreds of users today, thousands soon at our pace. 100,000+ hypotheses tested. MCP server shipping now: `pip install varrd`.
 
 **It's been a ride and we're nowhere near done.** What VARRD is today is a fraction of what it'll be. The early signs of the impact we set out for are already showing up.
 
@@ -54,7 +55,7 @@ With the agent economy ramping up, the natural interface is your AI talking to o
 
 - NVIDIA Inception partner
 - Built alongside Wedbush's business development team
-- Direct conversations with C-suite leadership across 10+ major financial firms — clearing brokers, prop trading shops, brokerage tech
+- Direct conversations with C-suite leadership across 30+ major financial firms — clearing brokers, prop trading shops, brokerage tech
 - Pilot programs with 20+ brokerages, including most of the major US clearing firms
 - Used by major hedge funds and prop trading firms
 - Context-engineering work has caught unsolicited interest from major Silicon Valley AI labs — stayed focused on VARRD
