@@ -2,6 +2,19 @@
 
 Founder of [VARRD](https://varrd.com). Building tools to find statistically real trading edges with AI.
 
+**What VARRD is**
+
+> *"AI has driven the cost of idea generation down to almost zero. Now the bottleneck is different. Now we have to verify them, evaluate them."*  
+> — Terence Tao
+
+That's the whole thesis. The trading world has enormous demand for verification, and almost everyone testing ideas with AI is doing it wrong — p-hacking, overfitting, OOS tampering, lookahead bias, no multiple-testing correction. People deploy 25-Sharpe-in-backtest strategies and get wrecked in production. Verification isn't a model problem. It's a context-management, knowledge-graph, and discipline problem.
+
+**Two ways to use it:**
+
+- **Bring your own idea.** Traders have insights, but there's a real language and intent barrier between a hypothesis and the quantitative test that proves it. VARRD removes that wall. Describe the idea in plain English; the engine turns it into a properly specified test, runs it under the strictest reasonable statistical settings, and tells you whether the edge is real.
+
+- **Skip the research, take the edges.** If you'd rather just trade what's already working, the edge feed is there. For a few cents per query, you see which VARRD-validated edges are firing in the market right now, about to trigger on a pending bar close, or already in an open trade. You don't generate the edge — you trade the ones we've verified.
+
 **Stuff I've built since I was a kid**
 
 - **Before 12** — Couldn't play sports for medical reasons, so I learned to fly small prop planes instead. Landed one about 25 times before turning 13. Eventually got a procedure done, went back to sports — didn't love flying enough to stick with it. Just always been a doer.
@@ -42,8 +55,6 @@ Started this with Ben (Princeton math, buddy from Chicago). My father — one of
 3. **Autonomous mode.** Realized that fully driving the engine took more bandwidth than most traders had time for. Built a mode where you point VARRD in a direction and it goes off and tests, discovers, and surfaces edges on its own — same context management, same test rules.
 
 4. **Edges as a service.** People don't want a drill, they want a hole in the wall. Years of testing — by us, our pilot users, and now hundreds of researchers — built up a real library of edges, and we have meaningful compute through NVIDIA Inception. Privacy was a transparent paid option, taken by users who wanted it; everything else aggregates into a live feed. Now you can pay a few cents per query to see which VARRD-validated edges are firing right now, about to trigger on a pending bar close, or already in an open trade. Across the last 70 days the feed's edges have made money with small drawdowns. Edge discovery stopped being the bottleneck a while ago — properly attained edges, portfolio execution, and risk management are. So we cut out the first one.
-
-The thesis: Terence Tao said idea generation is no longer the bottleneck — we'd already been building like that was true. The bottleneck moves to honest hypothesis testing, and that's a context-management and knowledge-graph problem more than a model problem.
 
 With the agent economy ramping up, the natural interface is your AI talking to ours — paying small fees to query the research engine, autonomous mode, or the live edge feed. That's where we've leaned in.
 
