@@ -4,6 +4,8 @@ Founder of [VARRD](https://varrd.com). Building tools to find statistically real
 
 **What VARRD is**
 
+**VARRD is the governed live edge layer:** statistically validated market behaviors, monitored in real time, with sample size, out-of-sample performance, decay, correlation, exposure, and execution context.
+
 > *"AI has driven the cost of idea generation down to almost zero. Now the bottleneck is different. Now we have to verify them, evaluate them."*  
 > — Terence Tao
 
