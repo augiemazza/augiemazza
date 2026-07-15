@@ -1,4 +1,3 @@
-**`vector embedding enthusiast`**
 
 - built a trading technology company in a dorm room. within two years, one of the world's largest trading technology firms came calling.
 - building ontology and FDE solutions for some of the largest securities firms in the world.
